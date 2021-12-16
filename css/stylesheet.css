@@ -4,8 +4,8 @@ body {
 }
 
 .co-name {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 48px;
+  font-family: 'Crimson Pro', serif;;
+  font-size: 35px;
   color: #2a2438 !important;
 }
 
@@ -14,11 +14,16 @@ body {
   }
 
   p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Crimson Pro', serif;  }
+
+  h1, h2, h4, h5 {
+    font-family:'Corben';
+    color: #2a2438 !important;
+
   }
 
 .hero-header {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Allerta', sans-serif;
   color: #2a2438 !important;
   text-align: left;
 }
