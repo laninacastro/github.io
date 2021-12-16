@@ -58,7 +58,7 @@
                 <p class="fs-4">Our mission is to create, promote and foster individual and organizational effectiveness by developing and offering an array of innovative and diverse training programs and services.</p>
                 <a class="btn btn-dark btn-large" href="../Final Project/" role="button" id="hero-button" target="_blank">Learn More</a>
               </div>
-              <div class="col img-col">
+              <div class="col img-col d-none d-md-block">
                 <img src="./IMAGES/meeting-ga1d7947b6_1280.png" class="img-fluid" alt="Software Development">
               </div>
             </div>
@@ -73,7 +73,7 @@
           <div class="col">
             <div class="row">
                             <!--Card 1 Michael-->
-              <div class="card-one m-3 bg-light mx-auto" id="our-team" style="width: 22rem;">
+              <div class="card-one m-3 bg-light mx-auto shadow rounded" id="our-team" style="width: 22rem;">
                 <img src="./IMAGES/pexels-christina-morillo-1181391 (1).jpg" class="card-img-top mt-3 w-100 opacity-75" alt="Man holding training materials">
                   <div class="card-body">
                     <h5 class="card-title fw-bold text-center">Michael Roberts</h5>
@@ -83,7 +83,7 @@
               </div>
 
                             <!--Card 2 Anna-->
-              <div class="card-two m-3 bg-light mx-auto" style="width: 22rem;">
+              <div class="card-two m-3 bg-light mx-auto shadow rounded" style="width: 22rem;">
                   <img src="./IMAGES/pexels-christina-morillo-1181424.jpg" class="card-img-top mt-3 opacity-75 w-100" alt="...">
                   <div class="card-body">
                       <h5 class="card-title fw-bold text-center">Ana Solis</h5>
@@ -93,7 +93,7 @@
               </div>
 
                             <!--Card 3 Sulema-->         
-              <div class="card-three m-3 bg-light mx-auto" style="width: 22rem;">
+              <div class="card-three m-3 bg-light mx-auto shadow rounded" style="width: 22rem;">
                 <img src="./IMAGES/pexels-christina-morillo-1181693.jpg" class="card-img-top mt-3 opacity-75 w-100" alt="...">
                 <div class="card-body">
                   <h5 class="card-title fw-bold text-center">Sulema Aguilar</h5>
@@ -118,7 +118,7 @@
                   <h2 class="text-center mt-3 display-4">Our Services</h2>
 
                             <!--1st Accordion-->
-                    <div class="accordion-item mx-3">
+                    <div class="accordion-item mx-3 shadow rounded">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         On-Demand Training
@@ -134,7 +134,7 @@
                     </div>
                     
                               <!--2nd Accordion-->
-                    <div class="accordion-item mx-3">
+                    <div class="accordion-item mx-3 shadow rounded">
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                           Training Manuals
@@ -149,7 +149,7 @@
                     </div>
 
                                     <!--3rd Accordion-->
-                    <div class="accordion-item mx-3">
+                    <div class="accordion-item mx-3 shadow rounded">
                       <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                           E-Learning Solutions
@@ -164,7 +164,7 @@
                     </div>
                     
                         <!--4th Accordion -->
-                    <div class="accordion-item mx-3">
+                    <div class="accordion-item mx-3 shadow rounded">
                       <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Individualized Training Services
                         </button>
@@ -190,7 +190,8 @@
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
         </symbol>
       </svg>
-      
+
+
       <div class="container py-3" id="plans">
         <header>
           <div class="row p-3 pb-md-4 mx-auto">
@@ -337,37 +338,38 @@
           </div>
       </div>
 
-      <!--Contact Form-->
-
-      <div class="container mt-5 ms-3" id="contact-us">
-        <h2 class="text-center display-4 mb-4">Contact Us</h2>
+      <div class="container-fluid mt-3 ms-3" id="contact-us">
+        <h2 class="text-center display-4 mb-1">Contact Us</h2>
         <p class="fs-5 text-muted text-center">1223 Oak Valley Dr. Toledo, OH 43609</p>
+      
+                  <!--Contact Form-->
 
         <form class="row g-3">
+         
           <div class="col">
-            <div class="col-md">
+            <div class="col-md ">
               <label for="firstName" class="form-label">First Name</label>
-              <input type="text" class="form-control bg-light" id="firstName" required>
+              <input type="text" class="form-control bg-light w-75" id="firstName" required>
             </div>
 
             <div class="col-md">
               <label for="lastName" class="form-label">Last Name</label>
-              <input type="text" class="form-control bg-light" id="lastName" required>
+              <input type="text" class="form-control bg-light w-75" id="lastName" required>
             </div>
 
             <div class="col-md">
               <label for="emailInfo" class="form-label">E-mail</label>
-              <input type="email" class="form-control bg-light" id="emailInfo" required>
+              <input type="email" class="form-control bg-light w-75" id="emailInfo" required>
             </div>
 
             <div class="col-md">
               <label for="phoneNumber" class="form-label">Phone Number</label>
-              <input type="text" class="form-control bg-light" id="phoneNumber" placeholder="+1 (419) 123-5432">
+              <input type="text" class="form-control bg-light w-75" id="phoneNumber" placeholder="+1 (419) 123-5432">
             </div>
 
             <div class="col-md">
-              <label for="comments" class="form-label"> Enter your question or comments here.</label>
-              <textarea class="form-control bg-light" id="comments" rows="5" required></textarea>
+              <label for="comments" class="form-label"> </label>
+              <textarea class="form-control bg-light w-75" id="comments" rows="7"  placeholder="Enter your question or comments here." required></textarea>
             </div>
 
             <div class="col-md mt-3">                    
@@ -375,13 +377,14 @@
             </div>
           </div>
 
-          <div class="col-lg mb-3 text-end" id="googleMap">
-            <iframe class="shadow-sm mt-5"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95390.82738128108!2d-83.64429615922981!3d41.656533740844274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b872dfc1e4e79%3A0x7c3cc89f453ac345!2sToledo%2C%20OH!5e0!3m2!1sen!2sus!4v1639630227140!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
+          <div class="col-md ms-3">
+            <div class="col img-col d-none d-md-block">
+              <img src="./IMAGES/email flipped.png" class="img-fluid" alt="Man Sending Email from Mobile Phone">
+            </div>  
+          </div>        
         </form>
       </div>
-
-
+ 
 <!--Footer-->
         <footer class=" bg-dark opacity-100  text-center text-white mt-4">
           <div class="container p-4">
@@ -420,7 +423,5 @@
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
             -->
-
     </body>
   </html>
-        
