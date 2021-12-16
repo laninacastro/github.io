@@ -4,29 +4,353 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Strode Solutions </title>
+        <title>Strode Solution</title>
         <link rel="stylesheet" href="./css/stylesheet.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=JetBrains+Mono:ital,wght@0,300;0,400;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">    
       </head>
 
-          <body>
-            <h1>Hello, world!</h1>
+        <body>
 
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-xxl">
+              <a href="#home" class="navbar-brand ">
+                  <span class="co-name fw-bold text-secondary">Strode Solutions</span>
+              </a>
+              <!--toggle button-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button> 
+              
+              <!--Navbar Links-->
+              <div class="collapse navbar-collapse justify-content-end align-center text-secondary" id="main-nav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link " href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#team">Our Team</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#plans">Plans</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                      <li class="nav-item  d-md-inline">
+                          <a class="btn  btn-outline-secondary ms-3" href="#login">Login</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
 
+      <!--Hero Section-->
+                           
+      <section id="hero">
+    
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1>Training<br>Solutions</h1>
+              <p>Our mission is to create, promote and foster individual and organizational effectiveness by developing and offering an array of innovative and diverse training programs and services.</p>
+              <button type="button" class="btn btn-dark btn-large" id="hero-button">Learn more</button>
+            </div>
 
+            <div class="col img-col">
+              <img src="./IMAGES/meeting-ga1d7947b6_1280.png" class="img-fluid" alt="Software Development">
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-            
+                 <!--Meet our Team-->
+        <h2 class="text-center fw-bold m-3">MEET OUR TEAM</h2>
+       
         
+        <div class="card container-fluid mb-3">
+          <div class="col">
+            <div class="row">
+                            <!--Card 1 Michael-->
+              <div class="card-one m-3 bg-light mx-auto" style="width: 22rem;">
+                <img src="./IMAGES/pexels-christina-morillo-1181391 (1).jpg" class="card-img-top mt-3 w-100 opacity-75" alt="Man holding training materials">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Michael Roberts</h5>
+                    <p class="card-text">Master's in Instructional Design (M.Ed.) </p>
+                    <p> Michael has extensive knowledge in course administration, content management, G Workspace (Google apps), and form development, with a special emphasis on custom course design.</p>
+                  </div>
+              </div>
+
+                            <!--Card 2 Anna-->
+              <div class="card-two m-3 bg-light mx-auto" style="width: 22rem;">
+                  <img src="./IMAGES/pexels-christina-morillo-1181424.jpg" class="card-img-top mt-3 opacity-75 w-100" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title fw-bold text-center">Ana Solis</h5>
+                      <p class="card-text">Master's in Instructional Design (M.Ed.) </p>
+                      <p> Anna has extensive knowledge in course administration, content management, G Workspace (Google apps), and form development, with a special emphasis on custom course design.</p>
+                  </div>
+              </div>
+
+                            <!--Card 3 Sulema-->         
+              <div class="card-three m-3 bg-light mx-auto" style="width: 22rem;">
+                <img src="./IMAGES/pexels-christina-morillo-1181693.jpg" class="card-img-top mt-3 opacity-75 w-100" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">Sulema Aguilar</h5>
+                  <p class="card-text">Master's in Instructional Design (M.Ed.) </p>
+                  <p> Sulema has extensive knowledge in course administration, content management, G Workspace (Google apps), and form development, with a special emphasis on custom course design.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <h2 class="display-4 fw-normal text-center m-4">Our Services</h2>
+
+        <div class="accordion" id="accordionExample">
+          <!--1st Accordion-->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      On-Demand Training
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <!--1st accordion content-->
+      <div class="accordion-body">
+        <strong class="text-primary">LOG ON AND LEARN</strong> Self-paced, convenient, high-quality and consistent learning.
+        Learners are eligible for CEU credits after completion of a course. Fully scalable—train individuals, teams or an entire organization.
+      </div>
+    </div>
+  </div>
+  
+            <!--2nd Accordion-->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Training Manuals
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <!--2nd Accordion Content-->
+      <div class="accordion-body">
+        <strong class="text-primary">PRODUCING PROFESSIONAL TRAINING MATERIALS</strong> We create impressive training manuals for our clients who are looking for engaging materials for their employees. Our training manuals provide all the necessary information and tools for success. We work directly with our clients to ensure accuracy and a polished piece of educational material that is functional for years to come.
+      </div>
+    </div>
+  </div>
+
+                  <!--3rd Accordion-->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        E-Learning Solutions
+      </button>
+    </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <!--3rd Accordion Content-->
+        <div class="accordion-body">
+          <strong class="text-primary">THE FUTURE IS E-LEARNING:</strong> Online learning has become an integral part of many organization’s Learning and Development plans. Nothing beats a face to face course from an engaging facilitator, but an online learning experience developed by the Presentation Geeks comes close. With professionally designed online course content immersed with video, narration, interactive activities and quizzes, taking part in self-directed learning has never been so engaging.
+        </div>
+      </div>
+  </div>
+  
+      <!--4th Accordion -->
+  <div class="accordion-item mx-3">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Individualized Training Services
+      </button>
+    </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <!--4th Accordion Content-->
+         <div class="accordion-body">
+            <strong class="text-primary">TRAINING TAILORED TO FIT YOUR NEEDS</strong> Assessing, designing, and implementing solutions aligned to a company's work and learning environment, we partner with you to help drive measurable results. Regardless of modality, our proven approach, content, and implementation process will help your organization achieve its strategic objectives 
+          </div>
+      </div>
+    </div>
+</div>
+
+        <!--Beginning of Pricing Plans-->
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol id="check" viewBox="0 0 16 16">
+          <title>Check</title>
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+          </symbol>
+      </svg>
+      
+      <div class="container- py-3">
+          <header>
+              <div class="row p-3 pb-md-4 mx-auto">
+                  <h1 class="display-4 fw-normal text-center">On Demand Training Plans</h1>
+                  <p class="fs-5 text-muted text-center">Gain access to knowledge based content in real time, anywhere and at anytime.</p>
+              </div>
+          </header>
+
+          <main>
+              <div class="row row-cols-1 row-cols-md-3 mb-3 mw-75">
+
+                              <!--1st card -->
+                  <div class="col">
+                      <div class="card mb-4 m-3 rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                              <h4 class="my-0 fw-normal">Monthly</h4>
+                          </div>
+                  
+                      <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$150<small class="text-muted fw-light">/mo</small></h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                              <li>10 users included</li>
+                              <li>2 GB of storage</li>
+                              <li>Email support</li>
+                              <li>Help center access</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign Up Now</button>
+                      </div>
+                  </div>
+              </div>
+
+              <!--second card-->
+              <div class="col">
+                  <div class="card mb-4 m-3 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Annual</h4>
+                      </div>
+              
+                      <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$138<small class="text-muted fw-light">/mo</small></h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                              <li>10 users included</li>
+                              <li>2 GB of storage</li>
+                              <li>Email support</li>
+                              <li>Help center access</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign Up Now</button>
+                      </div>
+                  </div>
+              </div>
+      
+          <!--third card-->
+          <div class="col">
+                  <div class="card mb-4 m-3 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                          <h4 class="my-0 fw-normal">Pro</h4>
+                      </div>
+          
+                      <div class="card-body">
+                          <h1 class="card-title pricing-card-title">$350<small class="text-muted fw-light">/mo</small></h1>
+                          <ul class="list-unstyled mt-3 mb-4">
+                              <li>10 users included</li>
+                              <li>2 GB of storage</li>
+                              <li>Email support</li>
+                              <li>Help center access</li>
+                          </ul>
+                          <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign Up Now</button>
+                      </div>
+                  </div>
+              </div>
+          </main>
+      </div>
+
+
+      <h2 class="display-6 text-center mb-4">Compare Plans</h2>
+
+      <!--plans table comparison-->
+      <div class="container bg-light">
+          <div class="row">
+              <div class="col table-responsive">
+                  <table class="table text-center">
+                      <thead>
+                          <tr>
+                          <th style="width: 34%;"></th>
+                          <th style="width: 22%;">Monthly</th>
+                          <th style="width: 22%;">Annual</th>
+                          <th style="width: 22%;">Pro</th>
+                          </tr>
+                      </thead>
+
+                      <tbody>
+                          <tr>
+                              <th scope="row" class="text-start">24 Hr Access</th>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row" class="text-start">Login to 2 Devices</th>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row" class="text-start">Customized Materials</th>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href=""/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row" class="text-start">Training Manuals</th>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href=""/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row" class="text-start">Coaching Calls</th>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#"/></svg></td>
+                                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row" class="text-start">Public</th>
+                              <td><svg class="bi" width="24" height="24"><use xlink:href="#"/></svg></td>
+                              <td><svg class="bi" width="24" height="24"><use xlink:href="#"/></svg></td>
+                              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+
+                          <tr>
+                              <th scope="row" class="text-start">Private</th>
+                              <td><svg class="bi" width="24" height="24"><use xlink:href="#"/></svg></td>
+                              <td><svg class="bi" width="24" height="24"><use xlink:href="#"/></svg></td>
+                              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                          </tr>
+                      </tbody>                
+                  </table>
+              </div>
+          </div>
+      </div>
+
+
+
+<!--Footer-->
+
+      <div id="footer" class="text-center p-3 mt-5
+      bg-light">
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.youtube.com" rel="nofollow"
+              target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.facebook.com" rel="nofollow" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://github.com/laninacastro" rel="nofollow" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <p class="text-dark text-center">© 2021 Copyright </p>
+        </div>
+
             <!-- Optional JavaScript; choose one of the two! -->
         
             <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -38,11 +362,6 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
             -->
 
-
-
-
-
           </body>
         </html>
-
-
+        
