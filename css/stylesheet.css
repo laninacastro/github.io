@@ -1,0 +1,47 @@
+
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 200px, #fff);
+}
+
+.co-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 48px;
+  color: #2a2438 !important;
+}
+
+#main-nav {
+    text-decoration: none;
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+  }
+
+.hero-header {
+  font-family: 'Inter', sans-serif;
+  color: #2a2438 !important;
+  text-align: left;
+}
+
+#hero-button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
+#hero .col {
+  justify-content: center; 
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col {
+  justify-content: flex-end; 
+  margin-top: 50px;
+}
+#hero img {
+  max-width: 130% !important;
+  width: 130%;
+}
+
+.copyright {
+  background-color: rgba(0,0,0,0.2);
+}
